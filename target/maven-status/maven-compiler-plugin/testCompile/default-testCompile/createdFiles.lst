@@ -1,0 +1,3 @@
+com\nopcommerce\demo\steps\TopMenuTestSteps.class
+com\nopcommerce\demo\Hooks.class
+com\nopcommerce\demo\runners\TestRunner.class

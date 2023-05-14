@@ -1,0 +1,513 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2605636900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Verify product added successfully and place order successfully",
+        "description": "",
+        "id": "electronics-test;verify-product-added-successfully-and-place-order-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 119900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 236231900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I mouse hover on \"Electronics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electronics",
+                  "offset": 18
+                }
+              ],
+              "location": "ElectronicsTestSteps.iMouseHoverOn(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 969062999,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I mouse hover on \"Cell phone\" and click",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cell phone",
+                  "offset": 18
+                }
+              ],
+              "location": "ElectronicsTestSteps.iMouseHoverOnAndClick(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24258499,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify the text \"Cell phones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cell phones",
+                  "offset": 19
+                }
+              ],
+              "location": "ElectronicsTestSteps.iVerifyTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38034800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on list tab",
+            "match": {
+              "location": "ElectronicsTestSteps.iClickOnListTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2116805699,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Nokia Lumia",
+            "match": {
+              "location": "ElectronicsTestSteps.iClickOnNokiaLumia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16124701,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify text nokia lumia \"Nokia Lumia 1020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nokia Lumia 1020",
+                  "offset": 27
+                }
+              ],
+              "location": "ElectronicsTestSteps.iVerifyTextNokiaLumia(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14728101,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I verify  price \"$349.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$349.00",
+                  "offset": 17
+                }
+              ],
+              "location": "ElectronicsTestSteps.iVerifyPrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45671899,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I change quantity \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "ElectronicsTestSteps.iChangeQuantity(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37144401,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on add to cart tab",
+            "match": {
+              "location": "ElectronicsTestSteps.iClickOnAddToCartTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632466900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I verify shopping cart message \"The product has been added to your shopping cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The product has been added to your shopping cart",
+                  "offset": 32
+                }
+              ],
+              "location": "ElectronicsTestSteps.iVerifyShoppingCartMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31496700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on green button",
+            "match": {
+              "location": "ElectronicsTestSteps.iClickOnGreenButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161250201,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I mouse hover on shopping cart",
+            "match": {
+              "location": "ComputersTest.iMouseHoverOnShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2369781800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on go to cart",
+            "match": {
+              "location": "ComputersTest.iClickOnGoToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18614300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I verify shopping cart title \"Shopping cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping cart",
+                  "offset": 30
+                }
+              ],
+              "location": "ComputersTest.iVerifyShoppingCartTitle(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30705901,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I verify the quantity",
+            "match": {
+              "location": "ElectronicsTestSteps.iVerifyTheQuantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17105400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I verify the total \"$698.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$698.00",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputersTest.iVerifyTheTotal(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39082501,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on terms of service checkbox",
+            "match": {
+              "location": "ComputersTest.iClickOnTermsOfServiceCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 475264299,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on checkout button",
+            "match": {
+              "location": "ComputersTest.iClickOnCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281404100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on Register button",
+            "match": {
+              "location": "ElectronicsTestSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17682700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify text \"Register\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 15
+                }
+              ],
+              "location": "ElectronicsTestSteps.iVerifyText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38497099,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I input first name \"Henry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Henry",
+                  "offset": 20
+                }
+              ],
+              "location": "ElectronicsTestSteps.iInputFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41938500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I input last name \"smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "smith",
+                  "offset": 19
+                }
+              ],
+              "location": "ElectronicsTestSteps.iInputLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41502399,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I input email address",
+            "match": {
+              "location": "ElectronicsTestSteps.iInputEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40439500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I input Password \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password123",
+                  "offset": 18
+                }
+              ],
+              "location": "ElectronicsTestSteps.iInputPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39892601,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I input confirm password \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password123",
+                  "offset": 26
+                }
+              ],
+              "location": "ElectronicsTestSteps.iInputConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 545849700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on register",
+            "match": {
+              "location": "ElectronicsTestSteps.iClickOnRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17380301,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I verify register text message \"Your registration completed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your registration completed",
+                  "offset": 32
+                }
+              ],
+              "location": "ElectronicsTestSteps.iVerifyRegisterTextMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251794400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click on Continue button",
+            "match": {
+              "location": "ElectronicsTestSteps.iClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14288201,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I verify Shopping Cart title \"Shopping cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping cart",
+                  "offset": 30
+                }
+              ],
+              "location": "ElectronicsTestSteps.iVerifyShoppingCartTitle(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Electronics Test",
+    "description": "\r\nAs a user I should able to navigate to Cell Phone page successfully\r\nand can verify that product added successfully and place the order successfully",
+    "id": "electronics-test",
+    "keyword": "Feature",
+    "uri": "electonicstest.feature"
+  }
+]
