@@ -5,7 +5,7 @@ Feature: Electronics Test
 
   Background: I am on homepage
 
-
+@sanity
   Scenario: Verify navigate to Cell Phone successfully
     Given   I mouse hover on "Electronics"
     When    I mouse hover on "Cell phone" and click

@@ -5,6 +5,7 @@ Feature: Computers Test
 
   Background: I am on homepage
 
+    @sanity
   Scenario: Verify products are arranged in Alphabetical order on Computers page
     Given   I click on "Computers"
     When    I click on Desktop
@@ -12,6 +13,7 @@ Feature: Computers Test
     Then    I verify Products are displayed in Descending order
 
 
+      @regression
   Scenario Outline: Verify product added to shopping cart successfully
     Given   I click on "Computers"
     When    I click on Desktop

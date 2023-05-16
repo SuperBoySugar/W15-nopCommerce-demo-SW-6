@@ -954,3 +954,68 @@
 2023-05-14 19:05:742 INFO  RegisterPage :92 - Verify Register Text Message 
 2023-05-14 19:05:996 INFO  RegisterPage :97 - Click on Continue button 
 2023-05-14 19:05:10 INFO  ShoppingCartPage :54 - Verify Shopping Cart Title 
+2023-05-16 15:05:78 INFO  HomePage :41 - Click on Top Menu option Computers<br>
+2023-05-16 15:05:568 INFO  ComputersPage :25 - Click On Desktop 
+2023-05-16 15:05:674 INFO  DesktopsPage :34 - Select Z To A filter : Name: A to Z
+2023-05-16 15:05:766 INFO  DesktopsPage :40 - Click on Add To Cart 
+2023-05-16 15:05:775 INFO  BuildYourOwnComputerPage :69 - Verify Build your own computer Text: Build your own computer
+2023-05-16 15:05:916 INFO  BuildYourOwnComputerPage :76 - Select processor : 2.2 GHz Intel Pentium Dual-Core E2200
+2023-05-16 15:05:84 INFO  BuildYourOwnComputerPage :82 - Select RAM: 8GB [+$60.00]
+2023-05-16 15:05:163 INFO  BuildYourOwnComputerPage :88 - Select HDD: 400 GB [+$100.00]
+2023-05-16 15:05:230 INFO  BuildYourOwnComputerPage :94 - Select OS: Vista Premium [+$60.00]
+2023-05-16 15:05:319 INFO  BuildYourOwnComputerPage :100 - Select Software: Total Commander [+$5.00]
+2023-05-16 15:05:415 INFO  BuildYourOwnComputerPage :113 - Click on Add to Cart button 
+2023-05-16 15:05:107 INFO  BuildYourOwnComputerPage :120 - Verify Add to Cart message: The product has been added to your shopping cart
+2023-05-16 15:05:226 INFO  BuildYourOwnComputerPage :127 - Click on Cross button 
+2023-05-16 15:05:433 INFO  BuildYourOwnComputerPage :134 - Mouse hover on Shopping Cart 
+2023-05-16 15:05:766 INFO  BuildYourOwnComputerPage :141 - Click on Go To Cart 
+2023-05-16 15:05:820 INFO  ShoppingCartPage :54 - Verify Shopping Cart Title Shopping cart
+2023-05-16 15:05:957 INFO  ShoppingCartPage :60 - Change quantity: 
+2023-05-16 15:05:385 INFO  ShoppingCartPage :62 - Click on Update Cart button 2
+2023-05-16 15:05:500 INFO  ShoppingCartPage :68 - Verify total: $2,950.00
+2023-05-16 15:05:618 INFO  ShoppingCartPage :74 - Click on Terms of Service checkbox 
+2023-05-16 15:05:282 INFO  ShoppingCartPage :80 - Click on Checkout button 
+2023-05-16 15:05:332 INFO  SignInPage :33 - Verify Welcome Text Welcome, Please Sign In!
+2023-05-16 15:05:152 INFO  SignInPage :38 - Click on Checkout As Guest button: 
+2023-05-16 15:05:292 INFO  CheckoutPage :142 - Input first name: Henry
+2023-05-16 15:05:436 INFO  CheckoutPage :147 - Input last name: smith
+2023-05-16 15:05:557 INFO  CheckoutPage :153 - Input email 
+2023-05-16 15:05:736 INFO  CheckoutPage :159 - Select Country: Australia
+2023-05-16 15:05:890 INFO  CheckoutPage :165 - Select city: London
+2023-05-16 15:05:61 INFO  CheckoutPage :171 - Input address: 10,Downing Street
+2023-05-16 15:05:224 INFO  CheckoutPage :176 - Input zipcode: rs3 8de
+2023-05-16 15:05:353 INFO  CheckoutPage :181 - Input Telephone number: 0435672346
+2023-05-16 15:05:464 INFO  CheckoutPage :277 - Click on Continue button 
+2023-05-16 15:05:860 INFO  CheckoutPage :191 - Click NextDayAirRadioBtn 
+2023-05-16 15:05:957 INFO  CheckoutPage :196 - Click continueOnShipping 
+2023-05-16 15:05:274 INFO  CheckoutPage :201 - click creditCard 
+2023-05-16 15:05:375 INFO  CheckoutPage :206 - click payment Continue Option 
+2023-05-16 15:05:556 INFO  CheckoutPage :212 - select creditCard: Master card
+2023-05-16 15:05:672 INFO  CheckoutPage :217 - Input cardHolderName: Rishi Sunak
+2023-05-16 15:05:780 INFO  CheckoutPage :222 - Input cardNumber: 5356654814185420
+2023-05-16 15:05:930 INFO  CheckoutPage :227 - Select Card Expire Month: 09
+2023-05-16 15:05:69 INFO  CheckoutPage :232 - Select Expire year: 2026
+2023-05-16 15:05:162 INFO  CheckoutPage :237 - Enter Card Code: 123
+2023-05-16 15:05:237 INFO  CheckoutPage :242 - Click on Continue button: 
+2023-05-16 15:05:492 INFO  CheckoutPage :247 - Verify Payment Method Credit Card
+2023-05-16 15:05:533 INFO  CheckoutPage :252 - Verify Shipping Method: Next Day Air
+2023-05-16 15:05:573 INFO  CheckoutPage :257 - Verify Total: $2,950.00
+2023-05-16 15:05:653 INFO  CheckoutPage :262 - Click on Confirm Button 
+2023-05-16 15:05:536 INFO  CheckoutPage :267 - Verify Thank You Message: Thank you
+2023-05-16 15:05:591 INFO  CheckoutPage :272 - Verify Order Message Your order has been successfully processed!
+2023-05-16 15:05:83 INFO  CheckoutPage :277 - Click on Continue button 
+2023-05-16 15:05:131 INFO  HomePage :55 - Verify page title 
+2023-05-16 15:05:570 INFO  HomePage :41 - Click on Top Menu option Computers<br>
+2023-05-16 15:05:608 INFO  HomePage :50 - Verify page title 
+2023-05-16 15:05:250 INFO  HomePage :41 - Click on Top Menu option Electronics<br>
+2023-05-16 15:05:292 INFO  HomePage :50 - Verify page title 
+2023-05-16 15:05:441 INFO  HomePage :41 - Click on Top Menu option Apparel<br>
+2023-05-16 15:05:477 INFO  HomePage :50 - Verify page title 
+2023-05-16 15:05:582 INFO  HomePage :41 - Click on Top Menu option Digital Downloads<br>
+2023-05-16 15:05:619 INFO  HomePage :50 - Verify page title 
+2023-05-16 15:05:288 INFO  HomePage :41 - Click on Top Menu option Books<br>
+2023-05-16 15:05:326 INFO  HomePage :50 - Verify page title 
+2023-05-16 15:05:495 INFO  HomePage :41 - Click on Top Menu option Jewelry<br>
+2023-05-16 15:05:536 INFO  HomePage :50 - Verify page title 
+2023-05-16 15:05:438 INFO  HomePage :41 - Click on Top Menu option Gift Cards<br>
+2023-05-16 15:05:473 INFO  HomePage :50 - Verify page title 

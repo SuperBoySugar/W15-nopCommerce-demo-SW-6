@@ -6,19 +6,19 @@ import cucumber.api.junit.Cucumber;
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
-/**
- * Created by Jay Vaghani
- */
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/resources/featurefile",
         glue = "com/nopcommerce/demo",
+        tags = "@regression",
         plugin = {"pretty", "html:target/cucumber-report/cucumber.html",
                 "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
                 "json:target/RunCuke/cucumber.json"}
 )
-public class TestRunner {
 
+
+
+public class RegressionRunner {
     @AfterClass
     public static void setUp() {
         String projectPath = System.getProperty("user.dir");
@@ -31,4 +31,5 @@ public class TestRunner {
         Reporter.setSystemInfo("Maven", "3.5.9");
         Reporter.setSystemInfo("Java Version", "1.8.0_151");
     }
+
 }

@@ -27,7 +27,7 @@ public class Hooks extends Utility {
                 throw new RuntimeException(e);
             }
         }
-//        closeBrowser();
+        closeBrowser();
     }
 
 
